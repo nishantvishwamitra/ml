@@ -1,0 +1,13 @@
+digraph G {
+node [shape=circle,style=filled,color=".7 .3 1.0"];
+building [shape=box,style=filled,color=".7 .3 1.0"];
+  building->c1[ label="mcadams" ]
+building [shape=box,style=filled,color=".7 .3 1.0"];
+  building->timeofday[ label="riggs" ]
+building [shape=box,style=filled,color=".7 .3 1.0"];
+  building->c2[ label="library" ]
+timeofday [shape=box,style=filled,color=".7 .3 1.0"];
+  timeofday->c2[ label="noon" ]
+timeofday [shape=box,style=filled,color=".7 .3 1.0"];
+  timeofday->c11[ label="morning" ]
+}
