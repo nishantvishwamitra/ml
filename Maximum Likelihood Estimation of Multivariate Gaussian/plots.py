@@ -1,5 +1,7 @@
 #!/usr/bin/python
-# Plots
+# A Bayesian minimum-distance classifier, using Maximum Likelihood estimates of mean vector and covariance matrices.
+# Classification is based on the minimum Mahalonobis distance, which can be considered as a discriminant function.
+# Under the assumption that the data is Gaussian.
 import math as m
 import matplotlib.pyplot as plt
 import numpy as np
